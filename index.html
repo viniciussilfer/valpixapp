@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
     integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/cores.css">
+
 
   <title>Valpix - Valorant</title>
 </head>
 
-<body style="min-width: 372px;">
+<body style="min-width: 372px;" class="bg-primary">
 
+  <!-- Barra de navegação -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-botton shadow-sm  mb-3">
     <div class="container">
       <a class="navbar-brand" href=""><strong>VALPIX</strong></a>
@@ -31,6 +34,10 @@
             <a href="" class="nav-link text-white">Pixels</a>
           </li>
 
+          <li navbar-item>
+            <a href="https://play.google.com/store/apps/details?id=com.valpix.wvstudio" class="nav-link text-white">Download</a>
+          </li>
+
         </ul>
 
 
@@ -38,15 +45,12 @@
           <ul class="navbar-nav">
 
             <li class="navbar-item">
-              <a href="" class="nav-link text-white">Login</a>
+              <a href="" class="nav-link text-white">Sobre</a>
             </li>
 
             <li class="navbar-item">
-              <a href="" class="nav-link text-white">Registrar-se</a>
-            </li>
-
-            <li class="navbar-item">
-              <a href="https://livepix.gg/valpix" class="nav-link text-white"> Apoie o projeto</a>
+              <a href="https://livepix.gg/valpix
+              " class="nav-link text-white"> Apoie o projeto</a>
             </li>
 
           </ul>
@@ -57,12 +61,41 @@
   </nav>
 
 
-  <footer class="border-top fixed-bottom text-muted bg-light">
+  <!--
+  <header class="container">
+    <div id="carouselMain" class="carousel carousel-dark slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#carouselMain" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselMain" data-slide-to="1" class="active"></li>
+      </ol>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center" data-interval="5000">
+          <img src="/imgs/slides/BANNER-APP.png" alt="" class="img-fluid d-none d-md-block">
+          <img src="/imgs/slides/banner.png" alt="" class="img-fluid d-block d-md-none">
+        </div>
+
+        <div class="carousel-item text-center" data-interval="5000">
+          <img src="/imgs/slides/BANNER-APP.png" alt="" class="img-fluid d-none d-md-block">
+          <img src="/imgs/slides/banner.png" alt="" class="img-fluid d-block d-md-none">
+        </div>
+        
+      </div>
+    </div>
+  </header>
+-->
+
+
+
+  <!-- Rodapé -->
+  <footer class="fixed-bottom text-muted bg-light">
     <div class="container">
       <div class="row py-3">
-        <div class="col-12 col-md-4 text-center text-md-left"><a href="#" class="text-decoration-none text-dark">Sobre o projeto</a></div>
-        <div class="col-12 col-md-4 text-center text-md-center text-dark">&copy 2023 - Valpix</div>
-        <div class="col-12 col-md-4 text-center text-md-right"><a href="#" class="text-decoration-none text-dark">Administrador</a></div>
+        <div class="col-12 col-md-4 text-center text-md-left text-dark">&copy 2023 - Valpix</div>
+        <div class="col-12 col-md-4 text-center text-md-center text-dark">Informações</div>
+        <div class="col-12 col-md-4 text-center text-md-right text-dark"><a href="#" class="text-decoration-none text-dark">Administrador</a></div>
       </div>
     </div>
   </footer>
